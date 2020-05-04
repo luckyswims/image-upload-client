@@ -31,9 +31,7 @@ const updateCat = (id, data) => {
     headers: {
       Authorization: `Bearer ` + store.user.token
     },
-    data: data,
-    contentType: false,
-    processData: false
+    data: data
   })
 }
 

@@ -48,12 +48,12 @@ const createCatsFailure = (data) => {
 
 const updateCatSuccess = function (data) {
   $('#Messages').text('Update Successfully').removeClass('failure').addClass('success')
-  const catHtml = categoryFormTemplate({ categories: data.categories })
-  $(`#${data.category._id}`).html(catHtml)
-  const index = store.categories.findIndex(data.categories._id)
-  console.log(data.categories._id)
+  // const catHtml = categoryFormTemplate({ categories: data.categories })
+  // $(`#${data.category._id}`).html(catHtml)
+  // const index = store.categories.findIndex(data.categories._id)
+  // console.log(data.categories._id)
   // console.log('updateCatSuccess data is ', data)
-  store.categories[index] = data.category
+  // store.categories[index] = data.category
   // console.log('updateCatSuccess data is ', data)
 }
 
