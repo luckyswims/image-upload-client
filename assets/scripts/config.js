@@ -2,7 +2,7 @@
 
 let apiUrl
 const apiUrls = {
-  production: 'https://aqueous-hamlet-25054.herokuapp.com',
+  production: 'https://luckyswims-image-upload-api.herokuapp.com',
   development: 'http://localhost:4741'
 }
 
